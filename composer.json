@@ -1,0 +1,19 @@
+{
+    "name": "bobzhai/pinyin",
+    "description": "Trunclale Chiness word ufword",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bobzhai\\Pinyin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "azhai2016",
+            "email": "1229991003@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
