@@ -2,7 +2,7 @@
 
 namespace Bobzhai\Pinyin;
 
-class Pinyin{
+class Pinyin {
 
     private static $obj = null;
     private $pinyin_array = [];
@@ -20,6 +20,11 @@ class Pinyin{
         return self::$obj;
     }
 
+    /* --------------------------------------------------
+     * `@input_str` - it's string 
+     * `@upper` - output Uppercase true/false 
+     * `@shift_word` - remove no character true/false
+     */
     public static function ucwords($input_str,$upper=true,$shift_word=false)
     {
         $result = '';
